@@ -57,6 +57,12 @@ header h1 {
     margin-left: 20px;
 }
 
+header .wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .wrapper {
     width: auto;
     margin: 0 auto;
@@ -64,7 +70,6 @@ header h1 {
 }
 
 header nav {
-    float: right;
     margin-right: 100px;
     margin-top: 50px;
 }
@@ -72,13 +77,14 @@ header nav {
 header nav ul li {
     display: inline-block;
     margin-right: 20px;
-    float: left;
 }
 
 header nav ul li a {
     text-transform: uppercase;
     text-decoration: none;
     font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #777;
 }
 
 /*  SECTION MAIN IMAGE */
@@ -132,6 +138,10 @@ header nav ul li a {
 #steps h4 {
     text-transform: uppercase;
     margin-bottom: 20px;
+}
+
+#steps li:hover{
+    cursor: pointer;
 }
 
 #step-1{
